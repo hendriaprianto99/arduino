@@ -8,10 +8,10 @@ void setup()
   // Print a message to the LCD.
   lcd.backlight();
   lcd.setCursor(0,0);
-  lcd.print("Cahyanti, Renti");
+  lcd.print("Aku Sayang Ibuk");
   
   lcd.setCursor(0,1);
-  lcd.print("Hendri, Rizqy");
+  lcd.print("Aku Sayang Ayah");
 }
 
 
