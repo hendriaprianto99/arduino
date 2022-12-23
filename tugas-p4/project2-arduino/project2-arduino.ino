@@ -10,10 +10,11 @@ const int TUNDA_HIJAU = 3000;
 
 void setup() {
   pinMode(PIN_MERAH,OUTPUT);
-  pinMode(PIN_KUNING,OUTPUT);
+  pinMode(PIN_KUNING,OUTPUT);   
   pinMode(PIN_HIJAU,OUTPUT);
 }
 
+//berfungsi untuk memanipulasi arduino
 void loop() {
   // pin hijau
   digitalWrite(PIN_HIJAU,HIGH); // lampu nyala

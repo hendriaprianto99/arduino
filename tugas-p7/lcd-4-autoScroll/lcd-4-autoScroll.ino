@@ -10,8 +10,9 @@ void loop() {
   lcd.autoscroll();
   lcd.setCursor(16, 0);
 
-  for(int x=1; x <=14; x++) {
+  for(int x=1; x <=11; x++) {
     lcd.print(x);
+    lcd.print(" ");
     delay(300);
   }
   lcd.clear();
